@@ -1,0 +1,46 @@
+.form-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 25px;
+    border: 5px solid lightcyan;
+    border-radius: 10px;
+  }
+  
+  fieldset {
+    display: none;
+  }
+  
+  fieldset:first-of-type {
+    display: block;
+  }
+  
+  input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 2px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.prev {
+    background-color: lightblue;
+  }
+  
+  button[type="submit"] {
+    background-color: greenyellow;
+  }
+  
+  button[type="submit"]:hover,
+  button.next:hover,
+  button.prev:hover {
+    background-color: blue;
+  }
+  
